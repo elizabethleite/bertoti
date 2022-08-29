@@ -3,7 +3,7 @@
 ## Requisitos funcionais:
 
 -	O bibliotecário pode cadastrar livros, inserindo título, autor, edição, volume, número de páginas e a que gênero textual ou área (exemplo: humanas) aquele livro é classificado;
--	O bibliotecário pode buscar um conjunto de livros passando para o sistema o gênero e número de páginas;
+-	O bibliotecário pode buscar um conjunto de livros passando para o sistema o área e número de páginas;
 - O bibliotecário pode buscar 1 livro passando para o sistema o título, autor, edição e volume;
 - O leitor pode reservar um livro de forma remota;
 - O leitor pode renovar um livro de forma remota;
