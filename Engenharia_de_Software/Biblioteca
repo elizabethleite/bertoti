@@ -1,0 +1,97 @@
+package biblioteca;
+
+/**
+ *
+ * @author eliza
+ */
+public class Biblioteca {
+    private String titulo;
+    private String autor;
+    private String edicao;
+    private String volume;
+    private String paginas;
+    private String genero;
+    private String area; 
+    
+    public Biblioteca(){  
+    } 
+    public Biblioteca(String titulo, String autor, String edicao, String volume, String paginas, String genero, String area) {
+        this.titulo = titulo;
+        this.autor = edicao;
+        this.volume = volume;
+        this.paginas = paginas;
+        this.genero = genero;
+        this.area = area;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public String getEdicao() {
+        return edicao;
+    }
+
+    public void setEdicao(String edicao) {
+        this.edicao = edicao;
+    }
+
+    public String getVolume() {
+        return volume;
+    }
+
+    public void setVolume(String volume) {
+        this.volume = volume;
+    }
+
+    public String getPaginas() {
+        return paginas;
+    }
+
+    public void setPaginas(String paginas) {
+        this.paginas = paginas;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+
+    public String getArea() {
+        return area;
+    }
+
+    public void setArea(String area) {
+        this.area = area;
+    }
+    
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
+    
+    public void cadastrar(){
+            System.out.println("Seu livro foi cadastrado com sucesso!");
+	}
+	
+    public void buscar(){
+            System.out.println("Buscando livro...");
+	}
+}
