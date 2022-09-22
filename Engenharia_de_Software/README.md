@@ -16,10 +16,10 @@ De acordo com Titus Winters, engenharia de software não é somente programaçã
 
 ## Requisitos não-funcionais:
 
-- O sistema deve ter escalabilidade avaliando a quantidade de leitores da biblioteca;
-- O sistema deve ser executado em plataforma web;
+- O sistema deve ter escalabilidade avaliando a quantidade de livros;
+- O sistema deve ser executado em desktop;
 - O desenvolvimento do sistema deve ser feito em linguagem JAVA;
-- A modelagem do banco de dados deve ser feita de modo a não permitir o cadastro do mesmo exemplar (avaliando-se todos os parâmetros citados acima), se houver mais de 1 exemplar, deve-se ter um campo para cadastro da quantidade);
+- A modelagem do banco de dados deve ser feita de modo a não permitir o cadastro do mesmo exemplar (avaliando-se os requisitos citados acima), se houver mais de 1 exemplar, deve-se ter um campo para cadastro da quantidade);
 - Deve possuir uma tela de login;
 - As telas devem ser simples e intuitivas.
 
