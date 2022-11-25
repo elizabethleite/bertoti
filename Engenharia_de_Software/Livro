@@ -1,0 +1,49 @@
+
+public class Livro {
+	
+	private String titulo;
+	private String autor;
+	private String edicao;
+	private String volume;
+	private Especificacao espec;
+	
+	
+	public Livro(String titulo, String autor, String edicao, String volume, Especificacao espec) {
+		
+		this.titulo = titulo;
+		this.autor = autor;
+		this.edicao = edicao;
+		this.volume = volume;
+		this.espec = espec;
+	}
+	public String getTitulo() {
+		return titulo;
+	}
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+	public String getAutor() {
+		return autor;
+	}
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
+	public String getEdicao() {
+		return edicao;
+	}
+	public void setEdicao(String edicao) {
+		this.edicao = edicao;
+	}
+	public String getVolume() {
+		return volume;
+	}
+	public void setVolume(String volume) {
+		this.volume = volume;
+	}
+	public Especificacao getEspec() {
+		return espec;
+	}
+	public void setEspec(Especificacao espec) {
+		this.espec = espec;
+	}}
+	
