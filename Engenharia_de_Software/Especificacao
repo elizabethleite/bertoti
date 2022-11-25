@@ -1,0 +1,34 @@
+
+public class Especificacao {
+	private String area;
+	private String paginas;
+	
+	
+	public Especificacao(String area, String paginas) {
+		
+		this.area = area;
+		this.paginas = paginas;
+	}
+	public String getArea() {
+		return area;
+	}
+	public void setArea(String area) {
+		this.area = area;
+	}
+	public String getPaginas() {
+		return paginas;
+	}
+	public void setPaginas(String paginas) {
+		this.paginas = paginas;
+	}
+	
+	public boolean comparar(Especificacao especificacao){
+		if (area.equals(especificacao.area) && paginas.equals(especificacao.paginas)) {
+			return true;
+		} else {
+			return false;
+		}
+				
+	}
+	
+}
