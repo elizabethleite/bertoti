@@ -1,97 +1,38 @@
-package biblioteca;
+import java.util.LinkedList;
+import java.util.List;
 
-/**
- *
- * @author eliza
- */
 public class Biblioteca {
-    private String titulo;
-    private String autor;
-    private String edicao;
-    private String volume;
-    private String paginas;
-    private String genero;
-    private String area; 
-    
-    public Biblioteca(){  
-    } 
-    public Biblioteca(String titulo, String autor, String edicao, String volume, String paginas, String genero, String area) {
-        this.titulo = titulo;
-        this.autor = edicao;
-        this.volume = volume;
-        this.paginas = paginas;
-        this.genero = genero;
-        this.area = area;
-    }
 
-    public String getTitulo() {
-        return titulo;
-    }
-
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
-    }
-
-    public String getAutor() {
-        return autor;
-    }
-
-    public void setAutor(String autor) {
-        this.autor = autor;
-    }
-
-    public String getEdicao() {
-        return edicao;
-    }
-
-    public void setEdicao(String edicao) {
-        this.edicao = edicao;
-    }
-
-    public String getVolume() {
-        return volume;
-    }
-
-    public void setVolume(String volume) {
-        this.volume = volume;
-    }
-
-    public String getPaginas() {
-        return paginas;
-    }
-
-    public void setPaginas(String paginas) {
-        this.paginas = paginas;
-    }
-
-    public String getGenero() {
-        return genero;
-    }
-
-    public void setGenero(String genero) {
-        this.genero = genero;
-    }
-
-    public String getArea() {
-        return area;
-    }
-
-    public void setArea(String area) {
-        this.area = area;
-    }
-    
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
-    public void cadastrar(){
-            System.out.println("Seu livro foi cadastrado com sucesso!");
-	}
+	private List<Livro> livros = new LinkedList<Livro>();
+	private Object titulo;
 	
-    public void buscar(){
-            System.out.println("Buscando livro...");
+	public void cadastrarLivro(Livro livro) {
+		livros.add(livro);
 	}
+	public List<Livro> buscarLivroPorEspecificacao(Especificacao espec){
+		List<Livro> livrosEncontrados = new LinkedList<Livro>();
+		for(Livro livro:livros) {
+			if(livro.getEspec().comparar(espec)) livrosEncontrados.add(livro);
+		}
+		return livrosEncontrados;
+	}
+
+	public Livro buscarLivroPorTitulo(String livro) {
+		for(Livro livro1:livros) {
+			if(livro1.getTitulo().equals(titulo)) {
+				return livro1;
+			}
+		}
+		return null;
+	}
+
+	/* Metodo para ajudar a testar*/
+	
+public List<Livro> getLivros(){
+	return this.livros;
 }
+public List<Livro> buscarLivroPorEspecificacao() {
+	// TODO Auto-generated method stub
+	return null;
+}}
+		
