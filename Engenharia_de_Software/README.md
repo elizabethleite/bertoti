@@ -19,13 +19,10 @@ De acordo com Titus Winters, engenharia de software não é somente programaçã
 - O sistema deve ter escalabilidade avaliando a quantidade de livros;
 - O sistema deve ser executado em desktop;
 - O desenvolvimento do sistema deve ser feito em linguagem JAVA;
-- A modelagem do banco de dados deve ser feita de modo a não permitir o cadastro do mesmo exemplar (avaliando-se os requisitos citados acima), se houver mais de 1 exemplar, deve-se ter um campo para cadastro da quantidade);
-- Deve possuir uma tela de login;
-- As telas devem ser simples e intuitivas.
 
 # DIAGRAMA UML
 
-![Diagrama sem nome](https://user-images.githubusercontent.com/101938881/188244410-976fcf31-e208-4550-a7cc-2923e16f1e51.jpg)
+![REPOSITORIO BERTOTI-UML](https://user-images.githubusercontent.com/101938881/204060553-04484f62-e7c1-465a-87a6-8a5dff183e67.jpg)
 
 # CASOS DE USO
 
