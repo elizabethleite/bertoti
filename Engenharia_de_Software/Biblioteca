@@ -4,7 +4,6 @@ import java.util.List;
 public class Biblioteca {
 
 	private List<Livro> livros = new LinkedList<Livro>();
-	private Object titulo;
 	
 	public void cadastrarLivro(Livro livro) {
 		livros.add(livro);
@@ -17,10 +16,10 @@ public class Biblioteca {
 		return livrosEncontrados;
 	}
 
-	public Livro buscarLivroPorTitulo(String livro) {
-		for(Livro livro1:livros) {
-			if(livro1.getTitulo().equals(titulo)) {
-				return livro1;
+	public Livro buscarLivroPorTitulo(String titulo) {
+		for(Livro livro:livros) {
+			if(livro.getTitulo().equals(titulo)) {
+				return livro;
 			}
 		}
 		return null;
@@ -28,11 +27,12 @@ public class Biblioteca {
 
 	/* Metodo para ajudar a testar*/
 	
-public List<Livro> getLivros(){
+public List<Livro> getLivro(){
 	return this.livros;
 }
 public List<Livro> buscarLivroPorEspecificacao() {
-	// TODO Auto-generated method stub
-	return null;
+	
+	return this.livros;
 }}
+	
 		
