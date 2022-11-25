@@ -9,12 +9,12 @@ public class Teste {
 	public void test() {
 		Biblioteca biblioteca = new Biblioteca();
 		
-		assertEquals(biblioteca.getLivros().size(),0);
+		assertEquals(biblioteca.getLivro().size(),0);
 		
 		biblioteca.cadastrarLivro(new Livro("Dezesseis Luas", "Kami Garcia", "1", "4", new Especificacao("Fantasia", "601")));
-		biblioteca.cadastrarLivro(new Livro("Dezesseis Luas", "Kami Garcia", "1", "7", new Especificacao("Fantasia", "400")));
+		biblioteca.cadastrarLivro(new Livro("Dezessete Luas", "Kami Garcia", "1", "7", new Especificacao("Fantasia", "400")));
 	
-		assertEquals(biblioteca.getLivros().size(),1);
+		assertEquals(biblioteca.getLivro().size(),2);
 	
 		Livro livrosEncontrados = biblioteca.buscarLivroPorTitulo("Dezesseis Luas");
 		
@@ -22,5 +22,5 @@ public class Teste {
 		
 		List<Livro> livrosEncontrados1 = biblioteca.buscarLivroPorEspecificacao(new Especificacao("Fantasia", "400"));
 		
-		assertEquals(livrosEncontrados1.get(0).getEspec().getPaginas(),"601");
+		assertEquals(livrosEncontrados1.get(0).getEspec().getPaginas(),"400");
 	}}
