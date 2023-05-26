@@ -1,0 +1,7 @@
+Projeto apresentado na disciplina de Laboratório de desenvolvimento de banco de dados III, para o professor Giuliano Bertoti, como parte integrante da nota da disciplina.
+
+
+O framework Java utilizado pelo projeto é o Quarkus, de código aberto e o projeto foi integrado com a ferramenta Gradle.
+
+
+Explanações sobre a aplicação em si podem ser consultadas no arquivo README.md deste diretório.
