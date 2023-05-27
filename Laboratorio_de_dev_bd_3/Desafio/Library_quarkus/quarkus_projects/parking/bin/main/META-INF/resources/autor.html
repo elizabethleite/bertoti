@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Busca por Autor</title>
+	
+    
+	<script src="js/jquery.js"></script>
+	
+
+	<link href="css/bootstrap.min.css" rel=stylesheet>
+	
+	
+	<script>
+		$(document).ready(function(){
+			
+
+			$("#busca").click(function() {
+
+				var autor = $( "#autor" ).val();
+				
+					
+				$("#dadosLivro").empty();
+					
+				var url = "/livro/"+autor;
+					
+
+				$.getJSON(url, function(data) {
+						
+						var itens = [];
+						
+						$.each(data, function(i){
+						
+							itens.push("<tr> <td>"+ this.titulo +"</td><td>"+ this.autor + "</td><td>"+ this.espc.area + "</td><td>"+ this.espc.paginas + "</td></tr>");
+							
+						});
+									
+						$("#dadosLivro").append(itens);
+				});
+
+			});
+
+		});
+
+	</script>
+
+   
+  </head>
+
+
+  <body>
+		
+
+  		<div id="painelModelo">
+  		
+		
+        <input id="modelo" class="form-control col-md-offset-5" type="text" placeholder="Default input">
+		
+		<button id="busca" class="btn btn-success col-md-offset-5">Buscar</button>
+		
+		<table class="table table-bordered"> 
+			<caption>Livros</caption>
+				<thead>
+					<tr> 
+						<th>Autor</th>
+					</tr> 
+				</thead> 
+				
+				<tbody id="dadosLivro"> 
+					
+				</tbody> 
+		</table>
+
+		
+  </body>
+  
+</html>

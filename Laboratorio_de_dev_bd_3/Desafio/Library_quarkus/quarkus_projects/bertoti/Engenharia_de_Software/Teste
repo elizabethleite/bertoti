@@ -1,0 +1,26 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+import java.util.List;
+
+public class Teste {
+
+	@Test
+	public void test() {
+		Biblioteca biblioteca = new Biblioteca();
+		
+		assertEquals(biblioteca.getLivro().size(),0);
+		
+		biblioteca.cadastrarLivro(new Livro("Dezesseis Luas", "Kami Garcia", "1", "4", new Especificacao("Fantasia", "601")));
+		biblioteca.cadastrarLivro(new Livro("Dezessete Luas", "Kami Garcia", "1", "7", new Especificacao("Fantasia", "400")));
+	
+		assertEquals(biblioteca.getLivro().size(),2);
+	
+		Livro livrosEncontrados = biblioteca.buscarLivroPorTitulo("Dezesseis Luas");
+		
+		assertEquals(livrosEncontrados.getEspec().getPaginas(),"601");
+		
+		List<Livro> livrosEncontrados1 = biblioteca.buscarLivroPorEspecificacao(new Especificacao("Fantasia", "400"));
+		
+		assertEquals(livrosEncontrados1.get(0).getEspec().getPaginas(),"400");
+	}}
