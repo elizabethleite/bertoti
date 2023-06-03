@@ -2,9 +2,8 @@
 
 ## Requisitos funcionais:
 
--	O bibliotecário pode cadastrar livros, inserindo título, autor, edição, volume, número de páginas e a que gênero textual ou área (exemplo: humanas) aquele livro é classificado;
--	O bibliotecário pode buscar um conjunto de livros passando para o sistema o área e número de páginas;
-- O bibliotecário pode buscar 1 livro passando para o sistema o título, autor, edição e volume;
+-	O bibliotecário pode buscar livros cadastrados inserindo area, número de páginas e área (exemplo: humanas, filosofia) em que aquele livro é classificado;
+- O bibliotecário pode buscar 1 livro passando para o sistema o título;
 
 ## Requisitos não-funcionais:
 
