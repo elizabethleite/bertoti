@@ -14,5 +14,16 @@
 - A arquitetura utilizada deve ser a REST.
 
 # DIAGRAMA UML
+![UML - LIVRARIA](https://github.com/elizabethleite/bertoti/assets/101938881/e607e6f3-41fe-4aec-92d3-8e0323f1b96c)
 
-![REPOSITORIO BERTOTI-UML](https://user-images.githubusercontent.com/101938881/204060553-04484f62-e7c1-465a-87a6-8a5dff183e67.jpg)
+
+# CASOS DE USO 
+![casos de uso - livraria](https://github.com/elizabethleite/bertoti/assets/101938881/4c30d349-f9bb-475c-8c01-2bc8c015b541)
+
+
+# WIREFRAMES
+![wireframe 1](https://github.com/elizabethleite/bertoti/assets/101938881/3de6ca04-fdce-40c8-b988-9adf5b5faea8)
+![wireframe 2](https://github.com/elizabethleite/bertoti/assets/101938881/21527949-742a-4e24-806f-ff39b06f84c4)
+
+# Tecnologias utilizadas 
+![recursos](https://github.com/elizabethleite/bertoti/assets/101938881/12eda4df-921f-4bf6-b081-f4e7614a3f32)
