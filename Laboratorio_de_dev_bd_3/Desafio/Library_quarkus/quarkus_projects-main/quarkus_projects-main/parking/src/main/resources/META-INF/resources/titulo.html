@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Busca por Titulo</title>
+	
+    
+	<script src="js/jquery.js"></script>
+	
+
+	<link href="css/bootstrap.min.css" rel=stylesheet>
+	
+	<style>
+	
+	@import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue&display=swap');
+	
+	body {
+        background-color: #FFFFFF;
+        padding: 50px;
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        text-align: center;
+        font-size: 16px;
+      }
+      
+      #titulo::placeholder{
+      	font-family: 'Helvetica Neue', Arial, sans-serif;
+      }
+      
+      #titulo{
+      	margin-left: 5px;
+      }
+      
+
+      #painelBusca {
+        margin-bottom: 50px;
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+      }
+
+      table {
+        background-color: #fff;
+        width: 60%;
+        margin: 0 auto;
+      }
+
+      table th {
+        background-color: #FF2D2D;
+        color: #fff;
+        text-align: center;
+      }
+
+      #dadosLivro tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      #buscaPorTitulo{
+        background-color: transparent;
+        border-color:#FF2D2D;
+        color:#FF2D2D;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-left: 10px;
+        border-radius: 25px;
+        font-size: 15px;
+        padding: 10px 20px;
+        font-weight: bold;
+      }
+	</style>
+	
+	<script>
+		$(document).ready(function(){
+			
+
+			$("#buscaPorTitulo").click(function() {
+
+				var titulo = $( "#titulo" ).val();
+				
+				
+					
+				$("#dadosLivro").empty();
+				
+					
+				var url = "/livro/"+ "titulo/"+titulo;
+				
+					
+
+				$.getJSON(url, function(data) {
+						
+						var itens = [];
+						
+						$.each(data,function(i){
+						
+						itens.push("<tr> <td>"+ this.titulo +"</td><td>"+ this.espc.area + "</td><td>"+ this.espc.pagina + "</td><td>"+ this.espc.volume + "</td></tr>");
+							
+						});
+									
+						$("#dadosLivro").append(itens);
+						
+				});
+
+			});
+
+		});
+
+	</script>
+
+   
+  </head>
+
+
+  <body>
+		
+
+  		<div id="painelBusca">
+            
+		
+		
+        <input id="titulo" class="form-control col-md-offset-5" type="text" placeholder="Pesquise por título">
+		
+		<button id="buscaPorTitulo" class="btn btn-success col-md-offset-5">BUSCAR</button>
+		
+		<table class="table table-bordered"> 
+			<caption>Livros</caption>
+				<thead>
+					<tr> 
+						<th>Titulo</th>
+						<th>Area</th> 
+						<th>Paginas</th> 
+						<th>Volume</th> 
+					</tr> 
+				</thead> 
+				
+				<tbody id="dadosLivro"> 
+					
+				</tbody> 
+		</table>
+
+		
+  </body>
+  
+</html>

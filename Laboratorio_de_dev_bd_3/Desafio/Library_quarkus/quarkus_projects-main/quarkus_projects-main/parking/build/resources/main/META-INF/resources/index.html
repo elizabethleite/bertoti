@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Livraria</title>
+	
+    
+	<script src="js/jquery.js"></script>
+	
+
+	<link href="css/bootstrap.min.css" rel=stylesheet>
+	
+	<style>
+	
+	@import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue&display=swap');
+	
+	body {
+        background-color: #FFFFFF;
+        padding: 50px;
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        text-align: center;
+        font-size: 16px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      #painelBusca {
+        margin-bottom: 50px;
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+      }
+
+      table {
+        background-color: #fff;
+        width: 60%;
+        margin: 0 auto;
+      }
+
+      table th {
+        background-color: #FF2D2D;
+        color: #fff;
+        text-align: center;
+      }
+
+      #dadosLivro tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      #busca{
+        background-color: transparent;
+        border-color:#FF2D2D;
+        color:#FF2D2D;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-left: 30px;
+        border-radius: 25px;
+        font-size: 15px;
+        padding: 10px 20px;
+        font-weight: bold;
+      }
+	</style>
+	
+	<script>
+		$(document).ready(function(){
+			
+
+			$("#busca").click(function() {
+
+				var area = $( "#area option:selected" ).text();
+				var pagina = $( "#pagina option:selected" ).text();
+				var volume = $( "#volume option:selected" ).text();
+					
+				$("#dadosLivro").empty();
+					
+				var url = "/livro/"+area+"/"+pagina+"/"+volume+"";
+					
+
+				$.getJSON(url, function(data) {
+						
+						var itens = [];
+						
+						$.each(data, function(i){
+						
+							itens.push("<tr> <td>"+ this.titulo +"</td><td>"+ this.espc.area + "</td><td>"+ this.espc.pagina + "</td><td>"+ this.espc.volume + "</td></tr>");
+							
+						});
+									
+						$("#dadosLivro").append(itens);
+						
+				});
+
+			});
+
+		});
+
+	</script>
+
+   
+  </head>
+
+
+  <body>
+		
+
+  		<div id="painelBusca">
+            
+		
+		
+            <div class="form-group col-md-4">
+                <label>AREA</label>
+                <select id="area" class="input-large form-control">
+                    <option value="" selected="selected">Escolha a area</option>
+                    <option value="fantasia">fantasia</option>
+                    <option value="filosofia">filosofia</option>
+                    <option value="literatura brasileira">literatura brasileira</option>
+                    
+                </select>
+            </div>
+		
+		
+		
+            <div class="form-group col-md-4">
+                <label>PAGINA</label>
+                <select id="pagina" class="input-large form-control">
+                    <option value="" selected="selected">Escolha a quantidade de páginas</option>
+                    <option value="263">263</option>
+                    <option value="400">400</option>
+                    <option value="212">212</option>
+                    
+                </select>
+            </div>
+		
+		
+		
+            <div class="form-group col-md-4">
+                <label>VOLUME</label>
+                <select id="volume" class="input-large form-control">
+                    <option value="" selected="selected">Escolha o volume</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    
+                </select>
+            </div>
+		
+		</div>
+		
+		<button id="busca" class="btn btn-primary col-md-offset-5">BUSCAR</button>
+		
+		<table class="table table-bordered"> 
+			<caption>Livros</caption>
+				<thead>
+					<tr> 
+						<th>Titulo</th>
+						<th>Area</th> 
+						<th>Paginas</th> 
+						<th>Volume</th> 
+					</tr> 
+				</thead> 
+				
+				<tbody id="dadosLivro"> 
+					
+				</tbody> 
+		</table>
+		
+
+  </body>
+  
+</html>
