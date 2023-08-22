@@ -1,0 +1,3 @@
+#PADRÕES DE PROJETOS
+
+Repositório dedicado a entrega das atividades da disciplina de "Padrões de projetos" do quarto semestre do curso de banco de dados da FATEC SJC, ministrado pelo professor Giuliano Bertoti.
