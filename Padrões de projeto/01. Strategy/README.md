@@ -1,0 +1,1 @@
+O padrão de projeto Strategy 
