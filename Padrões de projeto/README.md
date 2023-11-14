@@ -24,3 +24,4 @@ Repositório dedicado a entrega das atividades da disciplina de "Padrões de pro
 |              |                       | instância, enquanto provê um ponto de acesso global para  | um controle mais estrito | Caching.MemoryCache  |
 |              |                       | essa instância.                                           | sobre as variáveis       | em C#                |    
 |              |                       |                                                           | globais                  |                      |
+|              |                       |                                                           |                          |                      |
