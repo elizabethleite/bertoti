@@ -6,9 +6,8 @@ Oi! Tudo bem ? Meu nome é Elizabeth Cristina Alves Leite, tenho 28 anos e atual
 Aos 25 anos decidi realizar a transição de carreira para a área de tecnologia, trocando os béqueres e provetas por um computador, um mouse e um headset.
 Desde então venho me desafiando na área e trabaho atualmente como Service Desk, prestando suporte ao usuário a nível 1.
 
-<div align="center">
-  <img src= "![WhatsApp Image 2023-11-09 at 21 17 27](https://github.com/elizabethleite/bertoti/assets/101938881/1ec0ed4f-babb-4123-b9b7-b627536c2b0b)">
-</div>
+![WhatsApp Image 2023-11-09 at 21 17 27](https://github.com/elizabethleite/bertoti/assets/101938881/e03a1ed3-ec94-47e5-8ca8-f5dcf8bad71a)
+
 
 ## Meus principais conhecimentos 
 
@@ -44,21 +43,21 @@ Desenvolver um sistema web que atuaria como facilitador na entrada dos dados de 
 
 ### Tecnologias utilizadas
 
-Spring Boot: framework para Java utilizado para facilitar a configuração e o gerenciamento das dependências do projeto.
+* Spring Boot: framework para Java utilizado para facilitar a configuração e o gerenciamento das dependências do projeto.
 
-JAVA SE 20: linguagem para desenvolvimento da aplicação para back-end.
+* JAVA SE 20: linguagem para desenvolvimento da aplicação para back-end.
 
-JavaScript: linguagem para desenvolvimento da aplicação para front-end.
+* JavaScript: linguagem para desenvolvimento da aplicação para front-end.
 
-PostgreSQL: SGBD para desenvolvimento do Banco de Dados.
+* PostgreSQL: SGBD para desenvolvimento do Banco de Dados.
 
-Figma: utilizado para construção dos wireframes.
+* Figma: utilizado para construção dos wireframes.
 
-HTML5: utilizada para marcação e estruturação do conteúdo apresentado na aplicação web.
+* HTML5: utilizada para marcação e estruturação do conteúdo apresentado na aplicação web.
 
-CSS3: utilizado para estilizar e formatar o conteúdo de páginas web.
+* CSS3: utilizado para estilizar e formatar o conteúdo de páginas web.
 
-Trello: ferramenta utilizada para a Gestão de Projetos utilizando a metodologia Scrum.
+* Trello: ferramenta utilizada para a Gestão de Projetos utilizando a metodologia Scrum.
 
 
 ### Contribuições pessoais
@@ -69,6 +68,7 @@ Fui responsável pelas tasks abaixo:
 
 <details>
 Utilizando a linguagem JAVA, fiquei responsável por desenvolver filtros que permitiam ao administrador selecionar vendedores específicos e produtos específicos para visualizar seu desempenho ao longo do tempo. Houveram problemas com a lógica desses filtros e com o auxílio e trabalho em equipe com os colegas, consegui compreender meus erros para que das próximas vezes pudesse acertar.
+
 </details>
 
 #### UX/UI design inicial
@@ -80,7 +80,47 @@ Utilizando como ferramenta o figma, eu construi os primeiros protótipos "nocode
 #### CSS e HTML
 
 <details>
-Inicialmente eu não possuia nenhum conhecimento em HTML e nem CSS, no entanto, logo no início do projeto me foi atribuída a construção das páginas que eu havia criado no figma, as mesmas ainda não possuam a lógica (Javascript) nesse estágio inicial.
+Inicialmente eu não possuia nenhum conhecimento em HTML e nem CSS, no entanto, logo no início do projeto me foi atribuída a construção das páginas que eu havia criado no figma, as mesmas ainda não possuam a lógica (Javascript) nesse estágio inicial. 
+
+O primeiro código HTML da tela desenvolvida está presente abaixo:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" href="Login.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+
+
+	<title>API 3BD - THUNDER TEAM</title>
+
+</head>
+<body>
+	<div class="container">
+	<!-- conteudo do site , nav cria menu-->
+		<nav> 
+			<div class="logo">
+			<a href="index.html"><img scr="view/imagens/logoDomRock1.jpeg"></a>
+			</div>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Administrador</a></li>
+				<li><a href="#">Vendedor</a></li>
+				<li><a href="#">Dados</a></li>
+				<li><a href="#">Gestor</a></li>
+
+
+			</ul>
+		</nav>
+	</div>
+</body>
+</html>
+
+No qual foi criado apenas a Nav bar da página. 
 </details>
 
 #### Jornada do usuário
