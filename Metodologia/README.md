@@ -28,7 +28,9 @@ Por estar sempre mais envolvida com o desenvolvimento do Frontend das aplicaçõ
 
 
 ### Parceiro acadêmico:
-[![Acesse o site oficial aqui](![logo dom rock](https://github.com/elizabethleite/bertoti/assets/101938881/98d4b6c4-d6c2-4aa5-9d6a-bec4e6469225)
+[![ Acesse o site da empresa parceira aqui! ]
+
+(![logo dom rock](https://github.com/elizabethleite/bertoti/assets/101938881/98d4b6c4-d6c2-4aa5-9d6a-bec4e6469225)
 )](https://www.domrock.net/)
 
 A Dom Rock é uma empresa que oferece soluções utilizando tecnologia de dados para ampliar resultados em marketing, vendas, distribuição, logística, operações, engenharia e finanças. 
