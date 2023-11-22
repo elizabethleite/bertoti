@@ -7,6 +7,8 @@ Aos 25 anos decidi realizar a transição de carreira para a área de tecnologia
 Desde então venho me desafiando na área e trabaho atualmente como Service Desk, prestando suporte ao usuário a nível 1.
 
 
+![WhatsApp Image 2023-11-09 at 21 17 27](https://github.com/elizabethleite/bertoti/assets/101938881/b954c497-f07d-4ba3-978f-c5c175e19e32)
+
 ## Meus principais conhecimentos 
 
 ### Suporte ao usuário
@@ -32,7 +34,7 @@ Por estar sempre mais envolvida com o desenvolvimento do Frontend das aplicaçõ
 [(![logo dom rock](https://github.com/elizabethleite/bertoti/assets/101938881/47e182fd-a289-4b24-9ac1-92ff282c5cc1)
 )](https://www.domrock.net/)
 
-A Dom Rock é uma empresa que oferece soluções utilizando tecnologia de dados para ampliar resultados em marketing, vendas, distribuição, logística, operações, engenharia e finanças. 
+A Dom Rock é uma empresa que oferece soluções utilizando tecnologia de dados para ampliar resultados em marketing, vendas, distribuição, logística, operações, engenharia e finanças. Para saber mais sobre a empresa é só clicar logo acima que direciona para o site oficial. 
 
 
 ### Visão do Projeto
