@@ -6,8 +6,10 @@ Oi! Tudo bem ? Meu nome é Elizabeth Cristina Alves Leite, tenho 28 anos e atual
 Aos 25 anos decidi realizar a transição de carreira para a área de tecnologia, trocando os béqueres e provetas por um computador, um mouse e um headset.
 Desde então venho me desafiando na área e trabaho atualmente como Service Desk, prestando suporte ao usuário a nível 1.
 
-
-![WhatsApp Image 2023-11-09 at 21 17 27](https://github.com/elizabethleite/bertoti/assets/101938881/b954c497-f07d-4ba3-978f-c5c175e19e32)
+<div align="center">
+  <img src="![WhatsApp Image 2023-11-09 at 21 17 27](https://github.com/elizabethleite/bertoti/assets/101938881/f43ba5d4-b38c-45da-bc49-01d57688558e)
+" alt="Descrição da imagem">
+</div>
 
 ## Meus principais conhecimentos 
 
