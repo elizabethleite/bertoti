@@ -1,43 +1,44 @@
-#Elizabeth Cristina Alves Leite
+# Elizabeth Cristina Alves Leite
 ---
 
-##Introdução 
+## Introdução 
 
 Oi! Tudo bem ? Meu nome é Elizabeth Cristina Alves Leite, tenho 28 anos e atualmente sou estudante do quarto semestre de Banco de dados na FATEC Prof. Jessen Vidal. 
 Aos 25 anos decidi realizar a transição de carreira para a área de tecnologia, trocando os béqueres e provetas por um computador, um mouse e um headset.
 Desde então venho me desafiando na área e trabaho atualmente como Service Desk, prestando suporte ao usuário a nível 1.
 
 
-##Meus principais conhecimentos 
+## Meus principais conhecimentos 
 
-###Suporte ao usuário
+### Suporte ao usuário
 
 Como service desk, atuo em demandas de reparos a nível 1 desde softwares de uso comum como o pacote office 365 (onedrive, outlook, PowerPoint, Excel, PowerBI) até softwares mais específicos para visualização de desenhos 2D e 3D. Além disso, direciono demandas para as equipes dos módulos do SAP e principalmente na transação su01 para que os usuários consigam realizar seu acesso no erp. 
 
 
-###SQL 
+### SQL 
 
 Desde o segundo semestre da graduação, quando iniciaram-se os estudos relacionados a SGBDR (popularmente conhecidos como banco de dados), desenvolvi um apreço pela manipulação de dados, por consequencia foquei no aprendizado das principais operações (select, insert, update e delete). 
 
 
-###HTML e CSS
+### HTML e CSS
 
 Por estar sempre mais envolvida com o desenvolvimento do Frontend das aplicações do Projeto Integrador (chamado na FATEC de API), aprendi do zero, HTML, CSS e Javascript e muitas vezes fui responsável pela montagem de wireframes no Figma.
 
 
-##Projeto 3: 1º semestre de 2023
+## Projeto 3: 1º semestre de 2023
 
 
-###Parceiro acadêmico: [![Acesse o site oficial aqui](https://example.com/button-icon.png)](https://example.com)
+### Parceiro acadêmico:
+[![Acesse o site oficial aqui](https://example.com/button-icon.png)](https://example.com)
 
 A Dom Rock é uma empresa que oferece soluções utilizando tecnologia de dados para ampliar resultados em marketing, vendas, distribuição, logística, operações, engenharia e finanças. 
 
 
-###Visão do Projeto
+### Visão do Projeto
 
 Desenvolver um sistema web que atuaria como facilitador na entrada dos dados de predição de vendas de seus clientes, que inicialmente são recebidos em arquivo no formato csv, diminuindo o tempo gasto com a padronização. Além disso, lidar com o histórico de movimentação de produtos (vendas e estoque), predição de faturamento e a entrada de dados originados da força de vendas quanto ao planejamento futuro.
 
-###Tecnologias utilizadas
+### Tecnologias utilizadas
 
 Spring Boot: framework para Java utilizado para facilitar a configuração e o gerenciamento das dependências do projeto.
 
@@ -56,35 +57,35 @@ CSS3: utilizado para estilizar e formatar o conteúdo de páginas web.
 Trello: ferramenta utilizada para a Gestão de Projetos utilizando a metodologia Scrum.
 
 
-###Contribuições pessoais
+### Contribuições pessoais
 
 Fui responsável pelas tasks abaixo:
 
-####Lógica de filtros no backend
+#### Lógica de filtros no backend
 
 <details>
 Utilizando a linguagem JAVA, fiquei responsável por desenvolver filtros que permitiam ao administrador selecionar vendedores específicos e produtos específicos para visualizar seu desempenho ao longo do tempo. Houveram problemas com a lógica desses filtros e com o auxílio e trabalho em equipe com os colegas, consegui compreender meus erros para que das próximas vezes pudesse acertar.
 </details>
 
-####UX/UI design inicial
+#### UX/UI design inicial
 
 <details>
 Utilizando como ferramenta o figma, eu construi os primeiros protótipos "nocode" das telas. 
 </details>
 
-####CSS e HTML
+#### CSS e HTML
 
 <details>
 Inicialmente eu não possuia nenhum conhecimento em HTML e nem CSS, no entanto, logo no início do projeto me foi atribuída a construção das páginas que eu havia criado no figma, as mesmas ainda não possuam a lógica (Javascript) nesse estágio inicial.
 </details>
 
-####Jornada do usuário
+#### Jornada do usuário
 
 <details>
 Também utilizando o figma, eu construi a jornada do usuário em formato de fluxograma para que se tornasse mais claro o entendimento dos passos que precisariam ser seguidos para atingir o produto.
 </details>
 
-###Aprendizados
+### Aprendizados efetivos
 
 * HTML e CSS : Sei fazer com algumas consultas.
 
