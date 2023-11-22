@@ -7,8 +7,7 @@ Aos 25 anos decidi realizar a transição de carreira para a área de tecnologia
 Desde então venho me desafiando na área e trabaho atualmente como Service Desk, prestando suporte ao usuário a nível 1.
 
 <div align="center">
-  <img src="![WhatsApp Image 2023-11-09 at 21 17 27](https://github.com/elizabethleite/bertoti/assets/101938881/f43ba5d4-b38c-45da-bc49-01d57688558e)
-" alt="Descrição da imagem">
+  ![WhatsApp Image 2023-11-09 at 21 17 27](https://github.com/elizabethleite/bertoti/assets/101938881/1ec0ed4f-babb-4123-b9b7-b627536c2b0b)
 </div>
 
 ## Meus principais conhecimentos 
