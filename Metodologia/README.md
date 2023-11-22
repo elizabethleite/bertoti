@@ -84,6 +84,7 @@ Inicialmente eu não possuia nenhum conhecimento em HTML e nem CSS, no entanto, 
 
 O primeiro código HTML da tela desenvolvida está presente abaixo:
 
+```HTML
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -119,6 +120,7 @@ O primeiro código HTML da tela desenvolvida está presente abaixo:
 	</div>
 </body>
 </html>
+```
 
 No qual foi criado apenas a Nav bar da página. 
 </details>
