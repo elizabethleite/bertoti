@@ -123,6 +123,10 @@ O primeiro código HTML da tela desenvolvida está presente abaixo:
 ```
 
 No qual foi criado apenas a Nav bar da página. 
+
+A estilização da página realizada em CSS, pode ser visualizada abaixo:
+
+
 </details>
 
 #### Jornada do usuário
