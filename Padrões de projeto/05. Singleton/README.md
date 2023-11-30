@@ -4,4 +4,5 @@ Resumo: é um padrão que garante que uma classe tenha apenas uma única instân
 
 ## Diagrama UML
 
-![Singleton](https://github.com/elizabethleite/bertoti/assets/101938881/b31d2af4-f5c3-4cca-ac33-37cf8f57854c)
+![image](https://github.com/elizabethleite/bertoti/assets/101938881/2dc87c26-791b-49c5-a7ec-552bf51b7a71)
+
