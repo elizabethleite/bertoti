@@ -4,4 +4,5 @@ Resumo: é um padrão que fornece uma interface simplificada para uma biblioteca
 
 ## Diagrama UML
 
-![Facade](https://github.com/elizabethleite/bertoti/assets/101938881/f70477aa-c842-49d4-b7b7-142ffcaf79f9)
+![image](https://github.com/elizabethleite/bertoti/assets/101938881/44f8d0cc-28ee-472d-af4a-3ec7a4c43465)
+
