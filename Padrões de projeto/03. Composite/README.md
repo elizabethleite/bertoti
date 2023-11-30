@@ -4,4 +4,5 @@ Resumo: é um padrão de projeto que permite compor objetos em estruturas de ár
 
 ## Diagrama UML
 
-![Composite](https://github.com/elizabethleite/bertoti/assets/101938881/dd524276-b9cb-4c74-b261-04faa7011b1e)
+![image](https://github.com/elizabethleite/bertoti/assets/101938881/5e6d1b00-1639-4195-816d-206f3848c602)
+
