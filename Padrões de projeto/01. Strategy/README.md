@@ -4,4 +4,5 @@ Resumo: encapsula uma família de algoritmos (tira o que varia) e a torna interc
 
 ## Diagrama UML
 
-![Strategy_UML](https://github.com/elizabethleite/bertoti/assets/101938881/a4c89b91-170d-475e-9811-c6e61996d303)
+![image](https://github.com/elizabethleite/bertoti/assets/101938881/02a316e9-a44c-45fb-a1ed-81462948df42)
+
