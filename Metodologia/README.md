@@ -4,7 +4,7 @@
 
 Oi! Tudo bem ? Meu nome é Elizabeth Cristina Alves Leite, tenho 28 anos e atualmente sou estudante do quarto semestre de Banco de dados na FATEC Prof. Jessen Vidal. 
 Aos 25 anos decidi realizar a transição de carreira para a área de tecnologia, trocando os béqueres e provetas por um computador, um mouse e um headset.
-Desde então venho me desafiando na área e trabaho atualmente como Service Desk, prestando suporte ao usuário a nível 1.
+Desde então venho me desafiando na área e trabalho atualmente como Service Desk, prestando suporte ao usuário a nível 1.
 
 ![WhatsApp Image 2023-11-09 at 21 17 27](https://github.com/elizabethleite/bertoti/assets/101938881/e03a1ed3-ec94-47e5-8ca8-f5dcf8bad71a)
 
@@ -62,7 +62,7 @@ Desenvolver um sistema web que atuaria como facilitador na entrada dos dados de 
 
 ### Contribuições pessoais
 
-Fui responsável pelas tasks abaixo:
+Fui responsável pelas tasks detalhadas abaixo:
 
 #### Lógica de filtros no backend
 
@@ -358,16 +358,41 @@ public class FiltroController {
 
 }
 ```
-No entanto, ele apresentava problemas na requisição para com o banco de dados PostGree, não retornando o que deveria, que eram os filtros por mês, vendedor e produto. A lógica no fim era bem mais simples e foi corrigido, conforme segue:
+No entanto, ele apresentava problemas na sua lógica e mesmo passando pelo teste no Insomnia, não estava retornando o que deveria, que eram os filtros por mês, vendedor e produto. A lógica no fim era bem mais simples e foi corrigido, conforme segue:
 
+```JAVA
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
+    @GetMapping("/filtro-produto/{fk_produto_cod_produto}")
+    public List<VendaResponseDTO> filtroProduto(@PathVariable Long fk_produto_cod_produto) {
+        List<Venda> vendas = repository.findByProduto(fk_produto_cod_produto);
+        return vendas.stream().map(VendaResponseDTO::new).toList();
+    }
 
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
+    @GetMapping("/filtro-vendedor/{fk_usuario_id}")
+    public List<VendaResponseDTO> filtroVendedor(@PathVariable Long fk_usuario_id) {
+        List<Venda> vendas = repository.findByVendedor(fk_usuario_id);
+        return vendas.stream().map(VendaResponseDTO::new).toList();
+    }
 
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
+    @GetMapping("/filtro-data/{mes}")
+    public List<VendaResponseDTO> buscarVendasPorMes(@PathVariable int mes) {
+        List<Venda> vendas = repository.findByCriadaEmMonth(mes);
+        return vendas.stream().map(VendaResponseDTO::new).toList();
+    }
+```
+Como nesse semestre, ainda não havíamos tido uma matéria específica sobre o springboot, considerei que obtive resultados satisfatórios, visto que não havia tido contato anterior com essa tecnologia e pude aprender com meus erros, conforme mencionado acima. 
 </details>
 
 #### UX/UI design inicial
 
 <details>
-Utilizando como ferramenta o figma, eu construi os primeiros protótipos "nocode" das telas. 
+Utilizando como ferramenta o figma, eu construi os primeiros protótipos "nocode" das telas. Conforme podem ser visualizados abaixo:
+
+ ![image](https://github.com/elizabethleite/bertoti/assets/101938881/4bc8e31f-ccae-47d9-b1e3-9f2431dd5cdd)
+
+Esses protótipos foram realizados nas primeiras semanas de projeto, então sofreram alterações ao longo das sprints.
 </details>
 
 #### CSS e HTML
@@ -419,13 +444,49 @@ No qual foi criado apenas a Nav bar da página.
 
 A estilização da página realizada em CSS, pode ser visualizada abaixo:
 
+```CSS
+@charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,100&display=swap')
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+body{
+	background-color: #000000;
+}
+nav.logo{
+	position: absolute;
+	width: 459px;
+	height: 111px;
+	left: 22px;
+	top: 20px;
+}
+div.text-tx{
+
+
+}
+```
 </details>
 
 #### Jornada do usuário
 
 <details>
-Também utilizando o figma, eu construi a jornada do usuário em formato de fluxograma para que se tornasse mais claro o entendimento dos passos que precisariam ser seguidos para atingir o produto.
+Também utilizando o figma, eu construi a jornada do usuário em formato de fluxograma para que se tornasse mais claro o entendimento dos passos que precisariam ser seguidos para atingir o produto. Foi a experiência mais próxima que obtive com o cargo de Product Owner e a jornada do usuário ficou conforme abaixo:
+
+Sendo dividida em jornada do usuário do Admnistrador:
+
+ ![image](https://github.com/elizabethleite/bertoti/assets/101938881/1b57eaa5-b936-42a9-b5d9-7a09922714cf)
+
+E jornada do usuário do vendedor:
+
+![image](https://github.com/elizabethleite/bertoti/assets/101938881/8b84f0a1-4679-4c40-be6c-b15cc7de22c0)
 </details>
 
 ### Aprendizados efetivos
