@@ -10,4 +10,4 @@ O padrão Composite é utilizado para tratar tanto usuários individuais quanto 
 
 ## Diagrama UML
 
-![UML_Strategy-MVC](https://github.com/elizabethleite/bertoti/assets/101938881/10c67cc1-d6aa-48a1-8d93-b6a56c536257)
+![MVC](https://github.com/elizabethleite/bertoti/assets/101938881/e6909c2d-3606-4ca6-9863-a79b7991574d)
