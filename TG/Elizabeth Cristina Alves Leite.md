@@ -16,9 +16,11 @@ Percebemos, cada vez mais, que a inteligência artificial é protagonista na ár
 Python, GitHub, Artificial intelligence, Reconhecimento de Voz
 
 <details>
+	
 * Python: linguagem utilizada para desenvolvimento da aplicação.
 	
 * GitHub: para versionamento da aplicação.
+  
 </details>
 
 ## Contribuições Pessoais
@@ -80,11 +82,13 @@ o uso de TI e bancos de dados no recrutamento não só melhora a eficiência e a
 JAVA, MySQL, JAVA Swing 
 
 <details>
+	
 * JAVA: linguagem para desenvolvimento da aplicação para back-end.
 	
 * MySQL: sistema de gerenciamento de banco de dados relacional utilizado para criação do banco de dados.
 
-* JAVA Swing: toolkit para a criação de interfaces gráficas de usuário (GUI) em Java. Foi utilizado na aplicação para criação das interfaces desktop. 
+* JAVA Swing: toolkit para a criação de interfaces gráficas de usuário (GUI) em Java. Foi utilizado na aplicação para criação das interfaces desktop.
+  
 </details>
 
 ## Contribuições Pessoais
@@ -189,6 +193,7 @@ A Dom Rock é uma empresa que oferece soluções utilizando tecnologia de dados 
 Spring Boot, JAVA SE 20, JavaScript, PostgreSQL, Figma, HTML5, CSS3, Trello
 
 <details>
+	
 * Spring Boot: framework para Java utilizado para facilitar a configuração e o gerenciamento das dependências do projeto.
 	
 * JAVA SE 20: linguagem para desenvolvimento da aplicação para back-end.
@@ -204,6 +209,7 @@ Spring Boot, JAVA SE 20, JavaScript, PostgreSQL, Figma, HTML5, CSS3, Trello
 * CSS3: utilizado para estilizar e formatar o conteúdo de páginas web.
   
 * Trello: ferramenta utilizada para a Gestão de Projetos utilizando a metodologia Scrum.
+  
 </details>
 
 
@@ -648,12 +654,19 @@ Em um cenário onde a paisagem urbana se compõe de uma mistura de edifícios mo
 Java, JavaScript, Vue, HTML, CSS, Oracle SQL
 
 <details>
-*Java: linguagem para desenvolvimento da aplicação para back-end.
-*JavaScript: linguagem para desenvolvimento da aplicação para front-end.
-*Vue: framework JavaScript progressivo para a construção de interfaces de usuário.
-*HTML5: utilizada para marcação e estruturação do conteúdo apresentado na aplicação web.
-*CSS3: utilizado para estilizar e formatar o conteúdo de páginas web.
-*Oracle SQL: SGBD para desenvolvimento do Banco de Dados.
+	
+* Java: linguagem para desenvolvimento da aplicação para back-end.
+  
+* JavaScript: linguagem para desenvolvimento da aplicação para front-end.
+
+* Vue: framework JavaScript progressivo para a construção de interfaces de usuário.
+  
+* HTML5: utilizada para marcação e estruturação do conteúdo apresentado na aplicação web.
+  
+* CSS3: utilizado para estilizar e formatar o conteúdo de páginas web.
+  
+* Oracle SQL: SGBD para desenvolvimento do Banco de Dados.
+  
 </details>
 
 
