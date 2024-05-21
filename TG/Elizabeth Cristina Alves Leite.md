@@ -545,10 +545,13 @@ Utilizando como ferramenta o figma, eu construi os primeiros protótipos "nocode
 <details>
 	
 <p align="center">
-  03 - Tela de cadastro de vagas
+  03 - Primeiras telas
 </p>
 
- ![image](https://github.com/elizabethleite/bertoti/assets/101938881/4bc8e31f-ccae-47d9-b1e3-9f2431dd5cdd)
+<div align="center">
+  <img src="https://github.com/elizabethleite/bertoti/assets/101938881/4bc8e31f-ccae-47d9-b1e3-9f2431dd5cdd" alt="Primeiras telas">
+</div>
+
 
 Esses protótipos foram realizados nas primeiras semanas de projeto, então sofreram alterações ao longo das sprints.
 </details>
