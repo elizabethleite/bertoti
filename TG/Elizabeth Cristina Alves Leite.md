@@ -1,5 +1,3 @@
-#### Elizabeth Cristina Alves Leite
-
 # Olá, sou Elizabeth
 
 Tenho 28 anos e atualmente sou estudante do curso de Banco de dados na FATEC Prof. Jessen Vidal. Aos 26 anos decidi realizar a transição de carreira para a área de tecnologia, trocando os béqueres e provetas por um computador, um mouse e um headset. Desde então venho me desafiando na área e trabalho atualmente como Service Desk, prestando suporte ao usuário a nível 1.
@@ -139,7 +137,8 @@ Realizei a normalização do modelo lógico utilizando como ferramenta o BRModel
   01 - Modelo lógico do banco de dados apresentado no Projeto 2
 </p>
 
-(colar imagem do modelo aqui)
+![image](https://github.com/elizabethleite/bertoti/assets/101938881/d5ad85b5-f459-4c19-8d27-2f75c8eeb979)
+
 
 
 #### Script SQL
@@ -172,8 +171,7 @@ Um dos wireframes desenvolvidos, pode ser visualizado abaixo:
   02 - Tela de cadastro de vagas
 </p>
 
-(colar imagem da tela aqui)
-
+![image](https://github.com/elizabethleite/bertoti/assets/101938881/14c1ea76-e782-44a0-b64e-0494f88ea671)
 
 #### Hard Skills Efetivamente Desenvolvidas
 Utilização da linguagem JAVA para aplicações desktop, normalização de banco de dados e utilização do Figma para criação de wireframes. 
@@ -661,7 +659,8 @@ Realizado a criação dos wireframes das telas de gráficos utilizados na aplica
   03 - Dashboard - Ordem de serviço
 </p>
 
-(inserir a imagem da tela aqui)
+![image](https://github.com/elizabethleite/bertoti/assets/101938881/dba961b0-3843-4abb-9f65-ec4362516f04)
+
 
 #### Criação da Landing Page
 Tentou-se criar a Landing Page da aplicação, no entanto, devido ao framework Vue ainda estar em aprendizagem, teve-se dificuldade no desenvolvimento e o código criado ficou conforme abaixo:
