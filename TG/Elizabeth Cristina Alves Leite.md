@@ -4,7 +4,9 @@
 
 Tenho 28 anos e atualmente sou estudante do curso de Banco de dados na FATEC Prof. Jessen Vidal. Aos 26 anos decidi realizar a transição de carreira para a área de tecnologia, trocando os béqueres e provetas por um computador, um mouse e um headset. Desde então venho me desafiando na área e trabalho atualmente como Service Desk, prestando suporte ao usuário a nível 1.
 
-
+<p align="center">
+![image](https://github.com/elizabethleite/bertoti/assets/101938881/cdcedad2-68b8-45d5-9462-57c99f35cec1)	
+</p>
 
 # Meus Projetos
 
