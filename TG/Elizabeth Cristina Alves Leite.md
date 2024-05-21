@@ -543,6 +543,11 @@ Como nesse semestre, ainda não havíamos tido uma matéria específica sobre o 
 Utilizando como ferramenta o figma, eu construi os primeiros protótipos "nocode" das telas. Conforme podem ser visualizados abaixo:
 
 <details>
+	
+<p align="center">
+  03 - Tela de cadastro de vagas
+</p>
+
  ![image](https://github.com/elizabethleite/bertoti/assets/101938881/4bc8e31f-ccae-47d9-b1e3-9f2431dd5cdd)
 
 Esses protótipos foram realizados nas primeiras semanas de projeto, então sofreram alterações ao longo das sprints.
@@ -635,9 +640,17 @@ Foi a experiência mais próxima que obtive com o cargo de Product Owner e a jor
 
 Sendo dividida em jornada do usuário do Admnistrador:
 
+<p align="center">
+  04 - Jornada do usuário do Administrador
+</p>
+
  ![image](https://github.com/elizabethleite/bertoti/assets/101938881/1b57eaa5-b936-42a9-b5d9-7a09922714cf)
 
 E jornada do usuário do vendedor:
+
+<p align="center">
+  05 - Jornada do usuário do Vendedor
+</p>
 
 ![image](https://github.com/elizabethleite/bertoti/assets/101938881/8b84f0a1-4679-4c40-be6c-b15cc7de22c0)
 </details>
@@ -680,7 +693,7 @@ Fui responsável pelas tasks detalhadas abaixo:
 Realizado a criação dos wireframes das telas de gráficos utilizados na aplicação:
 
 <p align="center">
-  03 - Dashboard - Ordem de serviço
+  06 - Dashboard - Ordem de serviço
 </p>
 
 ![image](https://github.com/elizabethleite/bertoti/assets/101938881/dba961b0-3843-4abb-9f65-ec4362516f04)
