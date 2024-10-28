@@ -755,14 +755,14 @@ Durante o desenvolvimento deste projeto eu estava enfrentando alguns problemas d
 ---
 
 
-# Projeto 5: 1º semestre de 2024
+## Projeto 5: 1º semestre de 2024
 
-## Problema
+### Problema
 
 A TecSUS realiza a coleta e processamento de contas de energia, água e gás para diversas empresas dos setores do atacado e varejo. Cada conta coletada precisa ter todos os seus campos digitados e salvos em banco de dados para eventuais consultas e análises técnicas/financeiras que podem trazer ao cliente oportunidades de redução de custos e alteração de contratos. Cada unidade do cliente pode possuir vários contratos (água, energia ou gás), cada contrato pode possuir uma ou mais contas (faturas de água, energia ou gás) por mês. Todos esses contratos estão ligados a uma concessionária de abastecimento. A Tecsus possue uma base de dados de unidades, contratos, contas e concessionárias desestruturada em arquivo texto, a empresa tem interesse em aplicar técnicas de ETL e utilizar ferramentas de visualização de dados do mercado.<br>
 [link para o GIT](https://github.com/Data-Team23/Tecsus)
 
-## Proposta de solução
+### Proposta de solução
 
 Desenvolver um sistema de gerenciamento de consumo de energia, água e gás, com foco na coleta, processamento e análise de dados provenientes de faturas. Para analisar os dados foi utilizado ETL (Extração, Transformação e Carga), modelo estrela, geração de relatórios detalhados, alertas de consumo excessivo e cadastro de concessionárias, unidades e contratos. O sistema inclui integração com ferramentas de visualização e geração de alertas por e-mail. Para garantir a eficiência e precisão, também são realizadas melhorias contínuas por meio de testes automatizados, versionamento de dados e documentação detalhada.
 
