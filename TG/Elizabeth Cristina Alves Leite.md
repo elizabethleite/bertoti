@@ -10,7 +10,7 @@ Tenho 28 anos e atualmente sou estudante do curso de Banco de dados na FATEC Pro
 
 # Meus Projetos
 
-#### Projeto 1: 1º semestre de 2022
+## Projeto 1: 1º semestre de 2022
 Trabalhei no projeto da API, inicialmente sem uma empresa parceira, sendo o desafio elaborado pelo professor Sabha.<br>  
 Percebemos, cada vez mais, que a inteligência artificial é protagonista na área de TI e impulsiona a popularização da linguagem Python. No contexto acadêmico, uma assistente virtual com comando de voz em Python oferece uma ferramenta poderosa para facilitar o processo de aprendizagem e pesquisa. Com apenas o uso da voz, os estudantes podem acessar informações, realizar pesquisas, fazer anotações e até mesmo revisar conteúdos enquanto estão ocupados com outras atividades. Essa tecnologia proporciona uma experiência de estudo mais dinâmica e eficiente, permitindo que os alunos maximizem seu tempo e concentrem-se no entendimento do conteúdo, sem as limitações impostas pelo uso de dispositivos manuais. Assim, a utilização dessa assistente não apenas simplifica as tarefas acadêmicas, mas também promove a autonomia e a acessibilidade, tornando-se uma aliada valiosa para estudantes de todos os níveis de ensino.<br>
 [link para o GIT](https://github.com/elizabethleite/BETA)
@@ -26,7 +26,7 @@ Python, GitHub, Artificial intelligence, Reconhecimento de Voz
   
 </details>
 
-## Contribuições Pessoais
+### Contribuições Pessoais
 Fui responsável pela task detalhada abaixo e contribui também para correção do código da funcionalidade Pomodoro.
 
 #### Scraps
@@ -77,7 +77,9 @@ Python e manipulação das bibliotecas disponíveis para reconhecimento de voz e
 Adaptabilidade<br>
 Nesse projeto foi meu primeiro contato com a linguagem Python, então tive que aprender enquanto desenvolvia.
 
-#### Projeto 2: 2º semestre de 2022
+---
+
+## Projeto 2: 2º semestre de 2022
 O uso de TI e bancos de dados no recrutamento não só melhora a eficiência e a precisão dos processos, mas também proporciona insights valiosos e assegura a segurança e conformidade das informações, contribuindo significativamente para o sucesso das estratégias de recrutamento das empresas. Nesse contexto, a proposta de solução desse projeto foi a criação de um sistema desktop no qual fosse possível cadastrar, excluir e editar vagas;  cadastrar usuários, aplicação da vaga pelo usuário e extração de relatórios. <br>
 [link para o GIT](https://github.com/Thunder53/Pro4Tech)
 
@@ -94,7 +96,7 @@ JAVA, MySQL, JAVA Swing
   
 </details>
 
-## Contribuições Pessoais
+### Contribuições Pessoais
 Fui responsável pelas tasks detalhadas abaixo:
 
 #### Criação de gráfico utilizando a biblioteca JFreeCharts
@@ -188,7 +190,9 @@ Utilização da linguagem JAVA para aplicações desktop, normalização de banc
 Trabalho em Equipe<br>
 Ainda assim, existem dúvidas a respeito de como a alta necessidade de integridade representa uma abertura para a melhoria dos equipamentos pré-especificados.
 
-#### Projeto 3: 1º semestre de 2023
+---
+
+## Projeto 3: 1º semestre de 2023
 A Dom Rock é uma empresa que oferece soluções utilizando tecnologia de dados para ampliar resultados em marketing, vendas, distribuição, logística, operações, engenharia e finanças. O objetivo desse projeto é desenvolver um sistema web que atuaria como facilitador na entrada dos dados de predição de vendas de seus clientes, que inicialmente são recebidos em arquivo no formato csv, diminuindo o tempo gasto com a padronização. Além disso, lidar com o histórico de movimentação de produtos (vendas e estoque), predição de faturamento e a entrada de dados originados da força de vendas quanto ao planejamento futuro.<br>
 [link para o GIT](https://github.com/Thunder53/Dom-Rock)
 
@@ -216,7 +220,7 @@ Spring Boot, JAVA SE 20, JavaScript, PostgreSQL, Figma, HTML5, CSS3, Trello
 </details>
 
 
-## Contribuições Pessoais
+### Contribuições Pessoais
 Fui responsável pelas tasks detalhadas abaixo:
 
 #### Lógica de filtros no backend
@@ -665,7 +669,9 @@ Utilização de HTML e CSS no Front-end e UX/UI design inicial.
 Atenção aos detalhes<br>
 No desenvolvimento da lógica dos filtros, na criação de protótipos no Figma, e na construção de páginas HTML/CSS, a atenção aos detalhes foi crucial para garantir que as funcionalidades e a interface do usuário fossem implementadas corretamente.
 
-#### Projeto 4: 2º semestre de 2023
+---
+
+## Projeto 4: 2º semestre de 2023
 Em um cenário onde a paisagem urbana se compõe de uma mistura de edifícios modernos e históricos, a empresa Jaia, apresentou um desafio significativo. A condução de inspeções prediais estava provando ser uma tarefa morosa e suscetível a imprecisões. Diante desse cenário, a Jaia buscou soluções inovadoras para otimizar esse processo crucial. A visão estratégica da empresa contemplou o desenvolvimento de um software de inspeção predial, projetado para revolucionar a abordagem atual. A plataforma concebida promete oferecer uma experiência intuitiva, capacitando os inspetores a documentar minuciosamente detalhes relevantes e capturar evidências visuais de forma eficaz. Adicionalmente, a geração instantânea de relatórios abastecerá a tomada de decisões embasadas. A Jaia, reconhecendo a necessidade de aprimorar a qualidade e eficiência das inspeções, direcionou seus esforços para o desenvolvimento desse software inovador. O resultado obtido transcendeu as expectativas iniciais, beneficiando não somente a empresa, mas também elevando o padrão das inspeções prediais na esfera urbana, contribuindo, assim, para uma maior segurança e excelência nas estruturas urbanas.<br>
 [link para o GIT](https://github.com/Data-Team23/Jaia)
 
@@ -689,7 +695,7 @@ Java, JavaScript, Vue, HTML, CSS, Oracle SQL
 </details>
 
 
-## Contribuições Pessoais
+### Contribuições Pessoais
 Fui responsável pelas tasks detalhadas abaixo:
 
 #### Manutenção dos wireframes
@@ -745,6 +751,89 @@ Utilização do Spring Boot
 Persistência<br>
 Durante o desenvolvimento deste projeto eu estava enfrentando alguns problemas de aprendizagem das matérias do semestre e pessoais, então mesmo entregando menos, me mantive no projeto.
 
+
+---
+
+
+# Projeto 5: 1º semestre de 2024
+
+## Problema
+
+A TecSUS realiza a coleta e processamento de contas de energia, água e gás para diversas empresas dos setores do atacado e varejo. Cada conta coletada precisa ter todos os seus campos digitados e salvos em banco de dados para eventuais consultas e análises técnicas/financeiras que podem trazer ao cliente oportunidades de redução de custos e alteração de contratos. Cada unidade do cliente pode possuir vários contratos (água, energia ou gás), cada contrato pode possuir uma ou mais contas (faturas de água, energia ou gás) por mês. Todos esses contratos estão ligados a uma concessionária de abastecimento. A Tecsus possue uma base de dados de unidades, contratos, contas e concessionárias desestruturada em arquivo texto, a empresa tem interesse em aplicar técnicas de ETL e utilizar ferramentas de visualização de dados do mercado.<br>
+[link para o GIT](https://github.com/Data-Team23/Tecsus)
+
+## Proposta de solução
+
+Desenvolver um sistema de gerenciamento de consumo de energia, água e gás, com foco na coleta, processamento e análise de dados provenientes de faturas. Para analisar os dados foi utilizado ETL (Extração, Transformação e Carga), modelo estrela, geração de relatórios detalhados, alertas de consumo excessivo e cadastro de concessionárias, unidades e contratos. O sistema inclui integração com ferramentas de visualização e geração de alertas por e-mail. Para garantir a eficiência e precisão, também são realizadas melhorias contínuas por meio de testes automatizados, versionamento de dados e documentação detalhada.
+
+### Tecnologias Utilizadas
+Python, JavaScript, Vue, HTML e CSS, Oracle SQL, Power BI, Integração Contínua
+
+<details>
+	
+* Python: linguagem para desenvolvimento da aplicação para back-end.
+  
+* JavaScript: linguagem para desenvolvimento da aplicação para front-end.
+
+* Vue: framework JavaScript progressivo para a construção de interfaces de usuário.
+  
+* HTML5: utilizada para marcação e estruturação do conteúdo apresentado na aplicação web.
+  
+* CSS3: utilizado para estilizar e formatar o conteúdo de páginas web.
+  
+* Oracle SQL: SGBD para desenvolvimento do Banco de Dados.
+
+* Power BI: Ferramenta de visualização de dados utilizada para a criação de dashboards e análise visual das métricas de consumo.
+
+* Integração Contínua (CI): Utilização de ferramentas de CI/CD para automação de testes, versionamento e deploy, garantindo uma entrega mais rápida e confiável das funcionalidades desenvolvidas.
+  
+</details>
+
+
+### Contribuições Pessoais
+Fui responsável pelas tasks detalhadas abaixo:
+
+#### Scrum Master
+
+* Facilitação das Sprints e Reuniões: Utilizando o YouTrack, foi desenvolvido o backlog (pelo Product Owner) e a partir dele as tasks que seriam trabalhadas em cada sprint. Devido ao tempo disponibilizado nesse semestre, não foi possível a realização de reuniões diárias (Daily Standups), porém elas eram realizadas pelo menos uma vez na semana e sempre que a equipe via a necessidade.
+
+* Remoção de Impedimentos: Identifiquei que a análise da base de dados para estruturação da modelagem estava gerando grande estresse para a equipe, então junto com a equipe de Dados, eu busquei entender os dados e procurar a ajuda da professora Juliana (que ministrava a disciplina de data warehouse) para auxiliar a equipe a destravar essa task que estava atrasando as entregas.
+
+* Monitoramento e Transparência: Utilizando o board do YouTrack (Gráfico de Burndown) foi monitorado o andamento das tarefas e sprints em tempo real, garantindo que o progresso seja visível para todos e que ajustes sejam feitos rapidamente se necessário.
+
+<p align="center">
+  07 - Gráfico de Burndown
+</p>
+
+![image](https://github.com/user-attachments/assets/13db248f-b017-49ff-94a4-8267a237e67f)
+
+
+<details>
+
+O Gráfico de Burndown é amplamente utilizado em metodologias ágeis, como Scrum, para visualizar o progresso do trabalho restante ao longo do tempo em um sprint ou projeto. O gráfico mostra duas variáveis principais:
+
+Eixo X: O tempo, geralmente representado em dias da sprint.
+Eixo Y: O trabalho restante, que pode ser medido em pontos de história, tarefas ou horas.
+
+O objetivo é que a linha de progresso decline constantemente em direção a zero, indicando que o trabalho está sendo concluído conforme o esperado. Quando a linha real diverge significativamente da linha ideal, isso pode sinalizar atrasos ou dificuldades na entrega.
+
+</details>
+
+#### Documentação
+Fui responsável pela estruturação da documentação do projeto, utilizando como ferramenta o WIKI do próprio GitHub.
+A documentação foi disposta em Home (onde havia a estrutura que todos da equipe deveriam seguir e algumas orientações sobre a ferramenta e quem poderia ser o autor de cada documento), Back‐end | Front‐end, Dados, DevOps e Produto. Mais detalhes podem ser visualizados no link:
+[link para o WIKI](https://github.com/Data-Team23/Tecsus/wiki)
+
+
+### Hard Skills Efetivamente Desenvolvidas
+
+Gestão de Ferramentas Ágeis utilizando o YouTrack, para o gerenciamento de sprints e backlog. Configuração e uso de Gráficos de Burndown.
+
+Gestão de Conflitos, na qual tive que desenvolver a habilidade em identificar e resolver impedimentos que possam impactar a equipe.
+
+### Soft Skills Efetivamente Desenvolvidas
+Liderança Servidora<br>
+Durante o desenvolvimento deste projeto eu desenvolvi a capacidade de liderar sem autoritarismo, servindo e apoiando a equipe para remover impedimentos e garantir seu sucesso.
 
 ## Meus Principais Conhecimentos
 
