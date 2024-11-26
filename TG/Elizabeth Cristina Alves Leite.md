@@ -835,6 +835,83 @@ Gestão de Conflitos, na qual tive que desenvolver a habilidade em identificar e
 Liderança Servidora<br>
 Durante o desenvolvimento deste projeto eu desenvolvi a capacidade de liderar sem autoritarismo, servindo e apoiando a equipe para remover impedimentos e garantir seu sucesso.
 
+___
+
+## Projeto 6: 2º semestre de 2024
+
+### Problema
+
+A SPC Grafeno, uma empresa especializada no registro de ativos financeiros, necessita desenvolver produtos financeiros inovadores utilizando técnicas de aprendizado de máquina. A empresa disponibilizou um banco de dados diversificado, contendo informações históricas sobre uma ampla variedade de ativos financeiros, transações e comportamentos de mercado. O desafio consiste em explorar esse banco de dados, identificar padrões e oportunidades, e criar um ou mais produtos financeiros que possam agregar valor tanto para a SPC Grafeno quanto para seus clientes.<br>
+[link para o GIT](https://github.com/Data-Team23/SPC-Grafeno)
+
+### Proposta de solução
+
+A solução desenvolvida pela equipe utilizou o algoritmo de clustering K-Means para segmentar os clientes com base na métrica RFM (Recency, Frequency, Monetary Value). O processo incluiu a normalização dos dados com o StandardScaler e a determinação do número ideal de clusters por meio do método do cotovelo, com a validação da coesão dos grupos realizada por métricas como o Silhouette Score.
+
+Os clusters formados permitiram identificar perfis específicos de clientes, como aqueles frequentes e de alto valor ou inativos e de baixo valor. A partir dessa segmentação, foram criadas estratégias personalizadas, incluindo ofertas exclusivas, programas de fidelidade e campanhas de reativação. A eficácia das ações foi avaliada por meio de taxas de crescimento, conversão e retenção, contribuindo para a otimização da emissão de duplicatas e o aumento do engajamento dos clientes. 
+
+### Tecnologias Utilizadas
+Python, JavaScript, Vue, HTML e CSS, MongoDB, Power BI
+
+<details>
+	
+* Python: linguagem para desenvolvimento da aplicação para back-end.
+  
+* JavaScript: linguagem para desenvolvimento da aplicação para front-end.
+
+* Vue: framework JavaScript progressivo para a construção de interfaces de usuário.
+  
+* HTML5: utilizada para marcação e estruturação do conteúdo apresentado na aplicação web.
+  
+* CSS3: utilizado para estilizar e formatar o conteúdo de páginas web.
+  
+* MongoDB: Banco de Dados não relacional.
+
+* Power BI: Ferramenta de visualização de dados utilizada para a criação de dashboards e análise visual das métricas de consumo.
+  
+</details>
+
+
+### Contribuições Pessoais
+Fui responsável pelas tasks detalhadas abaixo:
+
+#### UX/UI design
+
+Atentando-se a identidade visual do cliente, desenvolveu-se os wareframes das telas iniciais utilizando o Figma.
+O design das telas desempenha um papel essencial em projetos digitais, pois influencia diretamente a usabilidade, a navegação e a percepção da qualidade do produto. Um layout bem estruturado não só facilita a interação do usuário com o sistema, mas também promove uma experiência intuitiva, reduzindo a curva de aprendizado e potencializando a satisfação do cliente. Além disso, a harmonia entre o design e a identidade visual fortalece o reconhecimento da marca e cria uma conexão mais sólida com os usuários, aumentando a fidelidade e o engajamento.
+
+<p align="center">
+  08 - Wareframe das telas iniciais
+</p>
+
+
+![tela figma](https://github.com/user-attachments/assets/9cfccc05-5d5e-4239-8cdf-a061c4b41826)
+
+
+
+#### Scrum Master
+
+* Facilitação das Sprints e Reuniões: Utilizando o JIRA, desenvolveu-se o backlog (pelo Product Owner) e a partir dele as tasks que seriam trabalhadas em cada sprint. Semanalmente, ainda foram realizadas reuniões com o M2 (professor responsável pelos Scrum Masters). 
+
+* Monitoramento e Transparência: Utilizando o "create Dashboard" do JIRA foi realizado o monitoramento do andamento das tarefas e sprints em tempo real, garantindo que o progresso seja visível para todos e que ajustes sejam feitos rapidamente se necessário.
+
+
+#### Documentação
+Fui responsável pela estruturação e escrita da maior parte da documentação do projeto, utilizando como ferramenta o WIKI do GitHub.
+A documentação foi dividida no WIKI de modo que na Home havia um resumo sobre a empresa SPC Grafeno, o desafio proposto e um índice que direcionava para as outras páginas, nas quais haviam instruções sobre as aplicações Backend, Frontend e Machine Learning do sistema.
+[link para o WIKI](https://github.com/Data-Team23/SPC-Grafeno/wiki)
+
+
+### Hard Skills Efetivamente Desenvolvidas
+
+* Criação de wireframes no Figma.
+* Design de interfaces alinhadas à identidade visual do cliente.
+
+### Soft Skills Efetivamente Desenvolvidas
+Foco no Cliente<br>
+O design foi centrado no usuário e alinhado à identidade visual da marca. 
+
+
 ## Meus Principais Conhecimentos
 
 ### Suporte ao usuário
